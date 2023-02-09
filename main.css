@@ -34,8 +34,13 @@ form h2 {
 input {
   padding: 8px;
   border: none;
-  box-shadow: #c8d6e5;
   border-radius: 10px 0 0 10px;
+  border-left: 2px solid #009432;
+  transition: all ease .4s;
+}
+
+input:hover {
+  border-left: 6px solid #009432;
 }
 
 button {
